@@ -1,0 +1,44 @@
+
+
+body {
+    font-family: Aclonica, "courier new", courier;
+    font-size: 25px;
+    background-color: white;
+}
+
+#title {
+    color: black;
+    text-align: center;
+    font-size: 75px;
+    text-transform: uppercase;
+    background-color: rgb(170, 87, 19);
+    padding: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+}
+
+.nav-bar li {
+
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.nav-bar a:hover {
+    background-color: #555;
+}
